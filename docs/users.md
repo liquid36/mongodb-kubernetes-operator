@@ -59,6 +59,7 @@ You cannot disable SCRAM authentication.
      users:
        - name: <username>
          db: <authentication-database>
+         scramCredentialsSecretName: example
          passwordSecretRef:
            name: <db-user-secret>
          roles:
